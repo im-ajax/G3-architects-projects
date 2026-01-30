@@ -214,11 +214,15 @@ main > section{
 
 .sponsor-companies{
     padding-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: block;
+    margin: 0 40px;
+    gap: 20px;
+
     justify-items :center;
 }
-
+.marquee{
+    width: 100%;
+}
 .sponsor-companies img{
     filter: grayscale(100%);
 }
@@ -239,6 +243,7 @@ footer{
 .footer p{
     padding: 30px 50px;
     text-align: center;
+    font-size: 0.7rem;
 }
 
 /* responsive media query */
