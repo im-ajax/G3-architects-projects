@@ -239,8 +239,7 @@ footer{
 
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, 
-    .nav-links, 
+    .navbar,  
     .features,
     .teams{
         flex-direction: column;
